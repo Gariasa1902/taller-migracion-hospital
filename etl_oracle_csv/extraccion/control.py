@@ -53,7 +53,7 @@ class ControlExtraccion:
         
     # EL MÉTODO ACTUALIZACION_ULTIMO_ID RECIBE EL NOMBRE DE LA TABLA Y EL ÚLTIMO ID PROCESADO, 
     # Y ACTUALIZA O INSERTA ESTE VALOR EN LA BASE DE DATOS DE CONTROL DE CARGAS.
-    def actualizacion_ultimo_id(self, tabla: str, ultimo_id: int):
+    def actualizar_ultimo_id(self, tabla: str, ultimo_id: int):
         # SE CONECTA A LA BASE DE DATOS Y EJECUTA LA SENTENCIA SQL PARA ACTUALIZAR O INSERTAR EL ÚLTIMO ID PROCESADO PARA LA TABLA ESPECIFICADA.
         with sqlite3.connect(self.db_path) as conn:
             # SE EJECUTA LA SENTENCIA SQL PARA ACTUALIZAR O INSERTAR EL ÚLTIMO ID PROCESADO PARA LA TABLA ESPECIFICADA.
