@@ -1,0 +1,12 @@
+# Manejo de datos y archivos
+pandas
+
+# Conexión a bases de datos Oracle
+SQLAlchemy==2.0.29
+oracledb==2.1.1
+
+# Manejo de archivos de configuración (.yaml)
+PyYAML==6.0.1
+
+# Pruebas unitarias
+pytest==8.1.1
