@@ -1,0 +1,8 @@
+tablas_extraccion:
+  - nombre: "PACIENTES"
+    clave_primaria: "paciente_id"
+    columna_fecha: "fecha_registro"
+    
+  - nombre: "MEDICOS"
+    clave_primaria: "medico_id"
+    columna_fecha: "fecha_contratacion"

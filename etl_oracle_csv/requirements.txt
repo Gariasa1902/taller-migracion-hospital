@@ -2,7 +2,7 @@
 pandas
 
 # Conexión a bases de datos Oracle
-SQLAlchemy==2.0.29
+SQLAlchemy
 oracledb==2.1.1
 
 # Manejo de archivos de configuración (.yaml)
